@@ -8,25 +8,35 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header >
-        <nav class="header">
-            <a class="header__logo" href=""><h1>Travel Site</h1></a>
-            <ul class="navbar__list">
-                <li class="navbar__links"><a href="">Home</a></li>
-                <li class="navbar__links"><a href="">Hawaii</a></li>
-                <li class="navbar__links"><a href="">Iceland</a></li>
-                <li class="navbar__links"><a href="">Greece</a></li>
+    <header class="site-header" >
+        <a class="site-header__logo" href="./index.html"><h1>Travel Site</h1></a>
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a class="main-nav__link  main-nav__link--active" href="./index.html">Home</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="./pages/hawaii.html">Hawaii</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="./pages/iceland.html">Iceland</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="./pages/greece.html">Greece</a>
+                </li>
             </ul>
         </nav>
-        <section class="hero">
-            <div class="hero__headline">
-                <h2 class="hero__slogan" >Travelling Comes With Endless Discoveries</h2>
-                <p class="hero__description">Don't let your dreams be just dreams.Experience the world by booking a vacation with us now.</p>
-                <button class="hero__cta">Get Started</button>
-            </div>
-            <img class="hero__image" src="./assets/images/hero.png" alt="airplane flying over the world">
-        </section>
     </header>
+    <section class="hero-banner">
+        <div class="hero-banner__content">
+            <h2 class="hero-banner__slogan" >Travelling Comes With Endless Discoveries</h2>
+            <p class="hero-banner__details">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <button class="hero-banner__cta">Get Started</button>
+        </div>
+        <img class="hero-banner__image" src="./assets/images/hero.png" alt="airplane flying over the world">
+    </section>
+
+
 
 </body>
 </html>
