@@ -22,19 +22,22 @@ h6{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.875rem 5%;
+    padding: 1.8rem 5.3rem;
     background-color: #FFFFFF;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100vw;
+    height: 10vh;
 }
 
 .site-header__logo {
-    display: inline-block;
     text-decoration: none;
     color: #335576;
     cursor: pointer;
     padding: .625rem;
+}
+.site-header__title{
+    font-weight: 600;
 }
 
 /* NavBar Styles */
@@ -48,10 +51,39 @@ h6{
     color: black;
     text-decoration: none;
     padding: .625rem;
-    border-bottom: .125rem solid #FFFFFF;
-
+    border-bottom: .125r solid #FFFFFF;
 }
-
 .main-nav__link--active {
     border-bottom: .125rem solid #DB7A4E;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FEFAF5;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.footer__timing{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title{
+    margin: 2rem 0;
+    color: #335576;
+}
+.footer__subtitle,.footer__day {
+    margin-bottom: 1rem;
+    color: #DB7A4E;
+}
+
+.footer__link{
+    text-decoration: none;
+}
+.footer__icon{
+    width: 40px;
+    height: 40px;
+}
+.footer__time,.footer__icon{
+   margin-right: 1.25rem;
 }
