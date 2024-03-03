@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px dashed lightgray;
+    /* border: 1px dashed lightgray; */
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -71,6 +71,7 @@ h6{
 .footer__title{
     margin: 2rem 0;
     color: #335576;
+    text-transform: uppercase;
 }
 .footer__subtitle,.footer__day {
     margin-bottom: 1rem;
