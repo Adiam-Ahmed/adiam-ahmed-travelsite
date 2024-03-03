@@ -1,102 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Site</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <header class="site-header" >
-        <a class="site-header__logo" href="./index.html">
-            <h1 class="site-header__title">Travel Site</h1>
-        </a>
-        <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item">
-                    <a class="main-nav__link  main-nav__link--active" href="./index.html">Home</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="./pages/hawaii.html">Hawaii</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="./pages/iceland.html">Iceland</a>
-                </li>
-                <li class="main-nav__item">
-                    <a class="main-nav__link" href="./pages/greece.html">Greece</a>
-                </li>
-            </ul>
-        </nav>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-header__logo" href="./index.html">
+        <h1 class="site-header__title">Travel Site</h1>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--active" href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="./pages/hawaii.html">Hawaii</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="./pages/iceland.html">Iceland</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="./pages/greece.html">Greece</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section class="hero-banner">
-        <div class="hero-banner__content">
-            <h2 class="hero-banner__slogan" >Travelling Comes With Endless Discoveries</h2>
-            <p class="hero-banner__details">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-            <button class="hero-banner__cta">Get Started</button>
-        </div>
-        <img class="hero-banner__image" src="./assets/images/hero.png" alt="airplane flying over the world">
+      <div class="hero-banner__content">
+        <h2 class="hero-banner__slogan">
+          Travelling Comes With Endless Discoveries
+        </h2>
+        <p class="hero-banner__details">
+          Don't let your dreams be just dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <button class="hero-banner__cta">Get Started</button>
+      </div>
+      <img
+        class="hero-banner__image"
+        src="./assets/images/hero.png"
+        alt="airplane flying over the world"
+      />
     </section>
 
     <main class="site-main">
-        <h2 class ="site-main__title">Recommendations</h2>
+      <h2 class="site-main__title">Recommendations</h2>
 
-        <div class="destinations-container">
+      <div class="destinations-container">
+        <a class="destinations-container__card" href="./pages/hawaii.html">
+          <img
+            class="destinations-container__image"
+            src="./assets/images/hawaii.jpg"
+            alt="Hawaii"
+          />
+          <h3 class="destinations-container__title">Hawaii</h3>
+        </a>
 
-            <a  class="destinations-container__card" href="./pages/hawaii.html">
-                <img class="destinations-container__image" src="./assets/images/hawaii.jpg" alt="Hawaii">
-                <h3 class="destinations-container__title">Hawaii</h3>
-            </a>
+        <a class="destinations-container__card" href="./pages/iceland.html">
+          <img
+            class="destinations-container__image"
+            src="./assets/images/iceland.jpg"
+            alt="Iceland"
+          />
+          <h3 class="destinations-container__title">Iceland</h3>
+        </a>
 
-            <a  class="destinations-container__card" href="./pages/iceland.html">
-                <img class="destinations-container__image" src="./assets/images/iceland.jpg" alt="Iceland">
-                <h3 class="destinations-container__title">Iceland</h3>
-            </a>
-
-            <a  class="destinations-container__card" href="./pages/greece.html">
-                <img class="destinations-container__image" src="./assets/images/greece.jpg" alt="Greece">
-                <h3 class="destinations-container__title">Greece</h3>
-            </a>
-
-        </div>
+        <a class="destinations-container__card" href="./pages/greece.html">
+          <img
+            class="destinations-container__image"
+            src="./assets/images/greece.jpg"
+            alt="Greece"
+          />
+          <h3 class="destinations-container__title">Greece</h3>
+        </a>
+      </div>
     </main>
     <footer class="footer">
-        
-        <div class ="footer__card">
-            <h3 class="footer__title">Contact </h3>
-            <h6 class="footer__subtitle">Email</h6>
-            <h3 class="footer__info">info@travelsite.com</h3>
-        </div>
+      <div class="footer__card">
+        <h3 class="footer__title">Contact</h3>
+        <h6 class="footer__subtitle">Email</h6>
+        <h3 class="footer__email footer__text">info@travelsite.com</h3>
+      </div>
 
-        <div class ="footer__card">
-            <h3 class="footer__title">Hours </h3>
-            <div class="footer__timing">
-                <div class ="footer__working-periods">
-                    <h6 class="footer__day">MONDAY-FRIDAY</h6>
-                    <h3 class="footer__time">9:00AM-5:00PM</h3>
-                </div>
-                <div class ="footer__working-periods">
-                    <h6 class="footer__day">SATURDAY</h6>
-                    <h3 class="footer__time">10:00AM-4:00PM</h3>
-                </div>
-                <div class ="footer__working-periods">
-                    <h6 class="footer__day">SUNDAY</h6>
-                    <h3 class="footer__time">Closed</h3>
-                </div>
-            </div>
+      <div class="footer__card">
+        <h3 class="footer__title">Hours</h3>
+        <div class="footer__timing">
+          <div class="footer__periods">
+            <h6 class="footer__day">MONDAY-FRIDAY</h6>
+            <h3 class="footer__time footer__text">9:00 AM - 5:00 PM</h3>
+          </div>
+          <div class="footer__working-periods">
+            <h6 class="footer__day">SATURDAY</h6>
+            <h3 class="footer__time footer__text">10:00 AM - 4:00 PM</h3>
+          </div>
+          <div class="footer__working-periods">
+            <h6 class="footer__day">SUNDAY</h6>
+            <h3 class="footer__time footer__text">Closed</h3>
+          </div>
         </div>
-        <div class ="footer__card">
-            <h3 class="footer__title">Social </h3>
-            <a href="https://www.instagram.com" class="footer__link">
-                <img class = "footer__icon" src = "./assets/icons/icon-instagram.png" alt ="instagram"/>
-            </a>
-            <a href="https://www.facebook.com" class="footer__link">
-                <img class = "footer__icon" src = "./assets/icons/icon-facebook.png" alt ="facebook"/>
-            </a>
-            <a href="https://www.twitter.com" class="footer__link">
-                <img class = "footer__icon" src = "./assets/icons/icon-twitter.png" alt ="twitter"/>
-            </a>
-        </div>
+      </div>
+      <div class="footer__card">
+        <h3 class="footer__title">Social</h3>
+        <a href="https://www.instagram.com" class="footer__link">
+          <img
+            class="footer__icon"
+            src="./assets/icons/icon-instagram.png"
+            alt="instagram"
+          />
+        </a>
+        <a href="https://www.facebook.com" class="footer__link">
+          <img
+            class="footer__icon"
+            src="./assets/icons/icon-facebook.png"
+            alt="facebook"
+          />
+        </a>
+        <a href="https://www.twitter.com" class="footer__link">
+          <img
+            class="footer__icon"
+            src="./assets/icons/icon-twitter.png"
+            alt="twitter"
+          />
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
