@@ -74,3 +74,27 @@
     font-weight: 800;
     color: white;
 }
+.overlay-effect{
+    position: relative;
+}
+.overlay-effect__image{
+    position: absolute;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+.overlay-effect__hawaii:hover{
+    background-color: skyblue;
+    top:0.5px;
+    box-shadow: 5px 5px 15px 5px skyblue;
+}
+.overlay-effect__iceland:hover {
+    background-color: #043228;
+    top: 0.5px;
+    box-shadow: 5px 5px 15px 5px #043228;
+}
+
+.overlay-effect__greece:hover {
+    background-color: #C6934B;
+    top: 0.5px;
+    box-shadow: 5px 5px 15px 5px #C6934B;
+}
