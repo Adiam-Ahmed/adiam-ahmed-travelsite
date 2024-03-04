@@ -38,6 +38,7 @@ h6{
 }
 .site-header__title{
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 /* NavBar Styles */
@@ -57,23 +58,27 @@ h6{
 }
 .footer{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
     background: #FEFAF5;
     flex-wrap: wrap;
-    padding: 2rem 0;
+    gap: 9.5rem;
+    padding-bottom: 3rem;
 }
 .footer__timing{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .footer__title{
     margin: 2rem 0;
     color: #335576;
     text-transform: uppercase;
+    align-items: center;
 }
 .footer__subtitle,.footer__day {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;;
     color: #DB7A4E;
 }
 .footer__text{
@@ -85,7 +90,7 @@ h6{
     text-decoration: none;
 }
 .footer__icon{
-    height: 1.875rem;
+    height: 2.1875rem
 }
 .footer__time,.footer__icon{
    margin-right: 1.25rem;
